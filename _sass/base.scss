@@ -70,9 +70,10 @@ a:not([class]) {
 }
 
 code {
-  font-family: $mono-font-family;
-  font-size: 0.75em;
   line-height: $body-line-height;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 1em;
+
 }
 
 figure,
